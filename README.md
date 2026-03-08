@@ -20,6 +20,7 @@ It maintains three things at the **closest git repo root**:
 ## What it does
 
 ### ✅ Plan making
+
 This skill depends on Atlassian MCP, it utilises this MCP in order to carefully plan out a detailed implementation of your feature.
 
 You provide it a ticket reference (hopefully with reasonable detail) and it can formulate the necessary steps required for a detailed plan.
@@ -29,6 +30,7 @@ Each plan includes:
 - Each chunk or section should consist of sub-bullets with additional detail which can help for context in handover.
 
 ### ✅ Decision capture
+
 If you have an issue with certain elements of a plan, no problem. Tell the agent to skip, reprioritise another section, or audit the codebase again.
 
 It should be able to handle working in an agile approach to help you deliver your feature in the most efficient way possible.

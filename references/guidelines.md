@@ -4,17 +4,19 @@
 
 plan.md MUST contain these sections:
 
-1. JIRA reference
+1. JIRA reference.
 2. Context for the feature. If none, ask for it.
-3. Implementation steps broken down into consecutive bullet points
-4. Each bullet should have 1-4 sub-bullets of additional context
-5. List any DR-XXX references in a comma separated list at the bottom of the relevant implementation section
+3. Implementation steps broken down into consecutive bullet points (checkboxes).
+4. Each bullet (checkbox) should have 1-4 sub-bullets of additional context.
+5. There should always be a bullet point (checkbox) to verify changes (no regressions, profile, tests pass).
+6. List any DR-XXX references in a comma separated list at the bottom of the relevant implementation section.
+7. At the bottom of the plan there should always be a final checkbox to re-audit for improvements.
 
 Style:
 - Succinct but clear detail
 - Human readable
 
-## 2) Decision Record format (plan/<branch>/decisions.md)
+## 2) Decision Record format (plan/<branch>/decisions.md) (create if missing)
 
 Each decision uses this template:
 
